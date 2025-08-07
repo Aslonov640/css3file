@@ -16,46 +16,57 @@
     margin-top: 50px;
 }
 
-.index button{
+.index button {
     padding: 13px 50px;
     top: 44px;
     border-radius: 15px;
     background-color: rgba(64, 170, 41, 1);
     color: white;
-    border: 2px solid  rgba(64, 170, 41, 1);;
+    border: 2px solid rgba(64, 170, 41, 1);
+    ;
 }
 
-.litle{
+.litle {
     background-color: rgba(236, 249, 255, 1);
+    margin-top: 50px;
 }
 
-.buyerda{
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.buyrda{
     display: flex;
-    gap: 130px;
-    margin-top: 55px;
-    padding: 25px;
+    gap:50px;
 }
 
-.buyerda p {
-    display: flex;
+.buyer{
+   display: inline-block;
+   padding: 25px; 
 }
 
-.aus{
+
+.buyer:hover {
+    border-bottom: 2px solid #009BE3;
+}
+
+.aus {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 80px;
 }
 
-.iner{
-    display:flex;
+.iner {
+    display: flex;
 }
 
-.diyor{
+.diyor {
     margin-left: 80px;
 }
 
-.diyor h1{
+.diyor h1 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -65,7 +76,7 @@
     margin-bottom: 50px;
 }
 
-.diyor p{
+.diyor p {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
@@ -76,37 +87,40 @@
     margin-bottom: 45px;
 }
 
-.diyor div{
+.diyor div {
     display: flex;
     gap: 100px;
     align-items: center;
 }
 
-.sador{
-    display: flex;
-    gap: 20px;
+.sador .arrow-icon {
+    border-radius: 50%;
+    background-color: #009BE3;
+    font-size: 30px;
+    color: white;
+    padding: 14px;
 }
 
-.baba button{
-   padding:  20px 60px;
-   border-radius: 15px;
-   background-color: rgba(64, 170, 41, 1);
-   color: rgba(255, 255, 255, 1);
-   font-family: Montserrat;
+.baba button {
+    padding: 20px 60px;
+    border-radius: 15px;
+    background-color: rgba(64, 170, 41, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
     font-size: 18px;
     letter-spacing: 0%;
     text-align: center;
-    border: 2px solid  rgba(64, 170, 41, 1);
+    border: 2px solid rgba(64, 170, 41, 1);
 }
 
-.baba{
+.baba {
     margin-top: 100px;
     border-bottom: 2px solid blue;
 }
 
-.ella{
+.ella {
     padding: 15px 470px;
     top: 849px;
     left: 715px;
@@ -116,11 +130,11 @@
     margin-bottom: 2px;
 }
 
-.viva h1{
+.viva h1 {
     text-align: center;
 }
 
-.viva2{
+.viva2 {
     width: 216px;
     height: 408px;
     top: 1173px;
@@ -128,12 +142,12 @@
     opacity: 1;
 }
 
-.viva3{
+.viva3 {
     margin-top: 43px;
     text-align: center;
 }
 
-.viva3 h4{
+.viva3 h4 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -143,7 +157,7 @@
     color: rgba(92, 92, 92, 1);
 }
 
-.viva3 p{
+.viva3 p {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
@@ -153,7 +167,7 @@
     color: rgba(92, 92, 92, 1);
 }
 
-.viva h1{
+.viva h1 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -165,12 +179,12 @@
     margin-bottom: 110px;
 }
 
-.viva4{
+.viva4 {
     display: flex;
     gap: 130px;
-}   
+}
 
-.commodo h1{
+.commodo h1 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -178,32 +192,32 @@
     line-height: 100%;
     letter-spacing: 0%;
     text-align: center;
-    color: rgba(28, 28, 28, 1); 
-    margin-top: 140px; 
-    margin-bottom: 110px;  
+    color: rgba(28, 28, 28, 1);
+    margin-top: 140px;
+    margin-bottom: 110px;
 }
 
-.commodo iframe{
+.commodo iframe {
     width: 1170px;
     height: 658px;
 }
 
-.ntai h1{
+.ntai h1 {
     font-family: Montserrat;
     font-weight: 700;
     text-align: center;
     margin-top: 150px;
-   
+
 }
 
-.babadi{
+.babadi {
     display: flex;
     justify-content: space-between;
     border-bottom: 2px solid rgba(64, 170, 41, 1);
     margin-top: 50px;
 }
 
-.babad{
+.babad {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -213,12 +227,12 @@
     margin-top: 20px;
 }
 
-.baad{
+.baad {
     display: flex;
     gap: 30px;
 }
 
-.bad{
+.bad {
     padding: 16px 50px;
     border-width: 2px;
     border-top-left-radius: 10px;
@@ -231,17 +245,17 @@
     border-bottom: none;
 }
 
-.bad:hover{
-    background-color:  rgba(64, 170, 41, 1);
+.bad:hover {
+    background-color: rgba(64, 170, 41, 1);
     color: white;
 }
 
-.hayot{
+.hayot {
     display: flex;
     margin-top: 100px;
 }
 
-.hayot p{
+.hayot p {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -256,7 +270,7 @@
     gap: 50px;
 }
 
-.comp p{
+.comp p {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
@@ -267,7 +281,7 @@
 
 
 
-.nella h4{
+.nella h4 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -277,7 +291,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.nella p{
+.nella p {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
@@ -289,7 +303,7 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.nella a{
+.nella a {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Italic;
@@ -302,18 +316,18 @@
     color: rgba(255, 255, 255, 1);
 }
 
-.nella{
+.nella {
     padding: 30px 35px;
-    background-color:  rgba(0, 155, 227, 1);
+    background-color: rgba(0, 155, 227, 1);
 }
 
-.culpa{
+.culpa {
     display: flex;
     gap: 80px;
     margin-top: 100px;
 }
 
-.culpa button{
+.culpa button {
     width: 219px;
     font-weight: 600;
     font-style: Bold;
@@ -322,10 +336,11 @@
     border-radius: 20px;
     background-color: rgba(64, 170, 41, 1);
     color: rgba(255, 255, 255, 1);
-    border: 2px solid  rgba(64, 170, 41, 1);;
+    border: 2px solid rgba(64, 170, 41, 1);
+    ;
 }
 
-.клинике{
+.клинике {
     text-align: center;
     font-family: Montserrat;
     font-weight: 700;
@@ -336,11 +351,11 @@
 }
 
 
-.клинике a{
-   color: rgba(28, 28, 28, 1);
+.клинике a {
+    color: rgba(28, 28, 28, 1);
 }
 
-.Читать p{
+.Читать p {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -353,21 +368,21 @@
     margin-bottom: 80px;
 }
 
-.mask{
+.mask {
     display: flex;
     gap: 30px;
     align-items: center;
 }
 
-.mas{
-   align-items: center;
-   display: flex;
-   gap: 800px;
-   margin-left: 40px;
-   margin-top: 100px;
+.mas {
+    align-items: center;
+    display: flex;
+    gap: 800px;
+    margin-left: 40px;
+    margin-top: 100px;
 }
 
-.mas a{
+.mas a {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -382,17 +397,25 @@
     display: flex;
 }
 
-.canti{
+.mas .ikonka{
+    border-radius: 50%;
+    background-color: #009BE3;
+    font-size: 30px;
+    color: white;
+    padding: 14px;
+}
+
+.canti {
     display: flex;
     gap: 60px;
     align-items: center;
 }
 
-.nadda{
+.nadda {
     margin-top: 190px;
 }
 
-.canti p{
+.canti p {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -402,7 +425,7 @@
     text-align: center;
 }
 
-.canti button{
+.canti button {
     padding: 16px 40px;
     border-width: 2px;
     border-radius: 15px;
@@ -418,15 +441,15 @@
     background-color: white;
 }
 
-.nashi{
+.nashi {
     width: 432.00000476837147px;
-    height:2.5px;
+    height: 2.5px;
     opacity: 1;
     border-width: 2px;
     background-color: rgba(0, 155, 227, 1);
 }
 
-.mars h5{
+.mars h5 {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -434,10 +457,10 @@
     line-height: 100%;
     letter-spacing: 0%;
     color: white;
-    margin-top: 10px;
+  
 }
 
-.mars p{
+.mars p {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
@@ -448,20 +471,13 @@
     margin-top: 10px;
 }
 
-.mars div{
-    background-color:  rgba(0, 155, 227, 1);
+.mars div {
+    margin-top: -10px;
+    background-color: rgba(0, 155, 227, 1);
     padding: 20px 20px;
-    width: 270px;
-    height: 102px;
-    opacity: 1;
 }
 
-.saturn{
-    margin-top: 150px;
-    margin-bottom: 100px;
-}
-
-.saturn p{
+.saturn p {
     font-family: Montserrat;
     font-weight: 700;
     font-style: Bold;
@@ -471,51 +487,306 @@
     text-align: center;
 }
 
-.asosi{
+.asosi span {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+}
+
+.asosi h5 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #40AA29;
+}
+
+.assa {
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-top: 100px;
+    gap: 40px;
 }
 
-.asosi span{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-}
-.asosi h5{
-    font-family: Montserrat;
-    font-weight: 500;
-    font-style: Medium;
-    font-size: 18px;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: rgba(64, 170, 41, 1);
-}
-
-.Узнала p{
+.asosi h6 {
     font-family: Montserrat;
     font-weight: 500;
     font-style: Medium;
     font-size: 16px;
     line-height: 160%;
     letter-spacing: 0%;
-    color: rgba(92, 92, 92, 1);
-    margin-right: 220px;
-    margin-top: 30px;
+    color: #5C5C5C;
+    margin-top: 20px;
 }
 
-.Узнала{
+.asosi {
+    display: flex;
+    align-items: center;
+}
+
+.pereyti a {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 22px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    background-color: #009BE3;
+    color: #FFFFFF;
+    padding: 64px 72px;
+    border-radius: 15px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     display: flex;
 }
 
-.Узнала a{
-    width: 270px;
-    height: 154px;
-    opacity: 1;
+.asososo {
+    margin-top: 80px;
+}
+
+.asos {
+    border: 1px solid #B9B9B9;
+    border-left: 0;
+    border-right: 0;
+    padding: 24px
+}
+
+.asosi {
+    margin-top: 31px;
+    margin-bottom: 31px;
+}
+
+.obshi {
+    background-image: url(./bacgraundimg.png);
+    width: 100%;
+    height: auto;
+}
+
+.table {
+    /* background-color: #FFFFFF; */
+    padding-top: 105px;
+    padding-bottom: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tabl {
+    background-color: #FFFFFF;
+    padding: 100px;
+    border-radius: 20px;
+}
+
+.name {
+    padding: 20px 100px;
+    border: 1px solid gray;
+}
+
+.button {
+    padding: 20px 120px;
+    border-radius: 10px;
+    border: 1px solid #40AA29;
+    background-color: #40AA29;
+    color: #FFFFFF;
+}
+
+.tabl p {
+    margin-bottom: 40PX;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.tabl span {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1C1C1C;
+}
+
+.boxs {
+    margin-top: 100px;
+}
+
+.boxs p {
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 80px;
+}
+
+.pustata {
+    border-left: 10px solid #009BE3;
+    padding-left: 40px;
+    margin-top: 31px;
+    margin-bottom: 31px;
 }
 
 
+.pusta {
+    border: 2px solid #E8E8E8;
+    border-right: none;
+    padding: 33px 51px;
+}
+
+.pusta h5 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+
+.pusta span {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 160%;
+    letter-spacing: 0%;
+}
+
+.oxir {
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: right;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: #1C1C1C;
+
+}
+
+.center {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.brend{
+    display: flex;
+    align-items: center;
+    gap: 130px;
+}
+
+.brend .ikonka{
+    border-radius: 50%;
+    background-color: #009BE3;
+    font-size: 30px;
+    color: white;
+    padding: 14px;
+}
+
+.brends{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.xaritam{
+    display: flex;
+    gap: 20px;
+}
+
+.xarita iframe{
+    width: 1000px;
+    height: 520px;
+}
+
+.pxarita{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 38px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 100PX;
+    margin-bottom: 80px;
+}
+
+.divxarita{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 28px;    
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.divxarita p{
+    font-family: Montserrat;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    line-height: 160%;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.oxirgisi{
+    background-image: url(.//image/bacgraundimg2.png);
+}
+
+.oxirgi{
+    display: flex;
+    gap: 180px;
+    align-items: center;
+    padding: 80px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.oxirgi P{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%; 
+    color: #5C5C5C;   
+}
+
+.oxirgi span{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5C5C5C;
+}
